@@ -1,0 +1,363 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 79798116200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch chrome and load the url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25813758400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click join now and then user navigated to reistration page",
+            "match": {
+              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-07T04:02:27.458Z",
+        "line": 8,
+        "name": "To validate user registration functionality with email id and password",
+        "description": "",
+        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6812166700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should enter email id and password",
+            "match": {
+              "location": "LoginStepDefinition.user_should_enter_email_id_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128153100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should accept the terms",
+            "match": {
+              "location": "LoginStepDefinition.user_should_accept_the_terms()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1687011700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User close the browser",
+            "match": {
+              "location": "LoginStepDefinition.userCloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 42839084500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch chrome and load the url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4310986200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click join now and then user navigated to reistration page",
+            "match": {
+              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-07T04:04:21.814Z",
+        "line": 21,
+        "name": "To validate user registration functionality with email id and password",
+        "description": "",
+        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 716534800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should enter email id \"example123@gmail.com\" and password \"123$gt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"example123@gmail.com\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"123$gt\"",
+                  "offset": 63
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_enter_email_id_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99217200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should accept the terms",
+            "match": {
+              "location": "LoginStepDefinition.user_should_accept_the_terms()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 551326400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User quit the browser",
+            "match": {
+              "location": "LoginStepDefinition.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 32598406700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch chrome and load the url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3106153500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click join now and then user navigated to reistration page",
+            "match": {
+              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-07T04:05:10.368Z",
+        "line": 22,
+        "name": "To validate user registration functionality with email id and password",
+        "description": "",
+        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 439998500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should enter email id \"example456@gmail.com\" and password \"456\u0026gt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"example456@gmail.com\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"456\u0026gt\"",
+                  "offset": 63
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_enter_email_id_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575252900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should accept the terms",
+            "match": {
+              "location": "LoginStepDefinition.user_should_accept_the_terms()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 424437100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User quit the browser",
+            "match": {
+              "location": "LoginStepDefinition.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29264382500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch chrome and load the url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2624535800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click join now and then user navigated to reistration page",
+            "match": {
+              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-07T04:05:47.522Z",
+        "line": 23,
+        "name": "To validate user registration functionality with email id and password",
+        "description": "",
+        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 839744500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should enter email id \"example789@gmail.com\" and password \"789@%^gt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"example789@gmail.com\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"789@%^gt\"",
+                  "offset": 63
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_enter_email_id_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90238800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should accept the terms",
+            "match": {
+              "location": "LoginStepDefinition.user_should_accept_the_terms()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 454043500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User quit the browser",
+            "match": {
+              "location": "LoginStepDefinition.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate user registration functionality",
+    "description": "",
+    "id": "to-validate-user-registration-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/user_registration.feature",
+    "tags": []
+  }
+]
