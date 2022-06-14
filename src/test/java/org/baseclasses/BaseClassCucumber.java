@@ -733,4 +733,9 @@ public class BaseClassCucumber {
 		ReportBuilder r = new ReportBuilder(l,con);
 		r.generateReports();
 	}
+	
+	public static void currentDate() {
+		Date d = new Date();
+		System.out.println(d);
+	}
 }
