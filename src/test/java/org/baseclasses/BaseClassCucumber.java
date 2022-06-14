@@ -738,4 +738,9 @@ public class BaseClassCucumber {
 		Date d = new Date();
 		System.out.println(d);
 	}
+	
+	public static List<WebElement> linksInPage() {
+		List<WebElement> elements = driver.findElements(By.tagName("href"));
+		return elements;
+	}
 }
