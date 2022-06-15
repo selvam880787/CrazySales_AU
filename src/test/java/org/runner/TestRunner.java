@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources",glue = "org.stepdefinition",dryRun = false,strict = true,snippets = SnippetType.CAMELCASE,
+@CucumberOptions(features = "src\\test\\resources\\featureFiles",glue = "org.stepdefinition",dryRun = false,strict = true,snippets = SnippetType.CAMELCASE,
 plugin = {"pretty","html:target\\report1.html","json:target\\report2.json","junit:target\\report3.xml"})
 public class TestRunner extends BaseClassCucumber {
 @AfterClass
