@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="233.326149">
-    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password" time="114.345247">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="168.344584">
+    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password" time="61.827608">
         <system-out><![CDATA[Given User should launch chrome and load the url............................passed
 When User click join now and then user navigated to reistration page........passed
 And User should enter email id and password.................................passed
@@ -8,7 +8,7 @@ Then User should accept the terms...........................................pass
 Then User close the browser.................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password 2" time="48.551971">
+    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password 2" time="36.604843">
         <system-out><![CDATA[Given User should launch chrome and load the url............................passed
 When User click join now and then user navigated to reistration page........passed
 And User should enter email id "example123@gmail.com" and password "123$gt".passed
@@ -16,7 +16,7 @@ Then User should accept the terms...........................................pass
 Then User quit the browser..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password 3" time="37.152337">
+    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password 3" time="35.226199">
         <system-out><![CDATA[Given User should launch chrome and load the url............................passed
 When User click join now and then user navigated to reistration page........passed
 And User should enter email id "example456@gmail.com" and password "456&gt".passed
@@ -24,7 +24,7 @@ Then User should accept the terms...........................................pass
 Then User quit the browser..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password 4" time="33.276594">
+    <testcase classname="To validate user registration functionality" name="To validate user registration functionality with email id and password 4" time="34.685934">
         <system-out><![CDATA[Given User should launch chrome and load the url............................passed
 When User click join now and then user navigated to reistration page........passed
 And User should enter email id "example789@gmail.com" and password "789@%^gt".passed

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 79798116200,
+              "duration": 46912452600,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 25813758400,
+              "duration": 6424696800,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T04:02:27.458Z",
+        "start_timestamp": "2022-06-15T14:54:16.865Z",
         "line": 8,
         "name": "To validate user registration functionality with email id and password",
         "description": "",
@@ -46,7 +46,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6812166700,
+              "duration": 7332930099,
               "status": "passed"
             },
             "line": 9,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 128153100,
+              "duration": 367152601,
               "status": "passed"
             },
             "line": 10,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 1687011700,
+              "duration": 700349100,
               "status": "passed"
             },
             "line": 11,
@@ -91,7 +91,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42839084500,
+              "duration": 31174948000,
               "status": "passed"
             },
             "line": 4,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 4310986200,
+              "duration": 4303060900,
               "status": "passed"
             },
             "line": 5,
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T04:04:21.814Z",
+        "start_timestamp": "2022-06-15T14:55:18.859Z",
         "line": 21,
         "name": "To validate user registration functionality with email id and password",
         "description": "",
@@ -126,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 716534800,
+              "duration": 432500101,
               "status": "passed"
             },
             "line": 15,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 99217200,
+              "duration": 84048100,
               "status": "passed"
             },
             "line": 16,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 551326400,
+              "duration": 570501599,
               "status": "passed"
             },
             "line": 17,
@@ -181,7 +181,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32598406700,
+              "duration": 30493872500,
               "status": "passed"
             },
             "line": 4,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 3106153500,
+              "duration": 3690032701,
               "status": "passed"
             },
             "line": 5,
@@ -206,7 +206,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T04:05:10.368Z",
+        "start_timestamp": "2022-06-15T14:55:55.469Z",
         "line": 22,
         "name": "To validate user registration functionality with email id and password",
         "description": "",
@@ -216,7 +216,7 @@
         "steps": [
           {
             "result": {
-              "duration": 439998500,
+              "duration": 351912300,
               "status": "passed"
             },
             "line": 15,
@@ -238,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 575252900,
+              "duration": 113359600,
               "status": "passed"
             },
             "line": 16,
@@ -250,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 424437100,
+              "duration": 571177399,
               "status": "passed"
             },
             "line": 17,
@@ -271,7 +271,7 @@
         "steps": [
           {
             "result": {
-              "duration": 29264382500,
+              "duration": 30039201000,
               "status": "passed"
             },
             "line": 4,
@@ -283,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 2624535800,
+              "duration": 3441190399,
               "status": "passed"
             },
             "line": 5,
@@ -296,7 +296,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-07T04:05:47.522Z",
+        "start_timestamp": "2022-06-15T14:56:30.700Z",
         "line": 23,
         "name": "To validate user registration functionality with email id and password",
         "description": "",
@@ -306,7 +306,7 @@
         "steps": [
           {
             "result": {
-              "duration": 839744500,
+              "duration": 606090800,
               "status": "passed"
             },
             "line": 15,
@@ -328,7 +328,7 @@
           },
           {
             "result": {
-              "duration": 90238800,
+              "duration": 166173400,
               "status": "passed"
             },
             "line": 16,
@@ -340,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 454043500,
+              "duration": 427681899,
               "status": "passed"
             },
             "line": 17,

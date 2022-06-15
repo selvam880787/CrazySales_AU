@@ -14,6 +14,6 @@ plugin = {"pretty","html:target\\report1.html","json:target\\report2.json","juni
 public class TestRunner extends BaseClassCucumber {
 @AfterClass
 public static void report() {
-	generateJvmReport("/CucumbersProjects/target/report2.json");
+	generateJvmReport("target\\report2.json");
 }
 }
