@@ -1,6 +1,7 @@
 package org.stepdefinition;
 
 import org.baseclasses.BaseClassCucumber;
+import org.junit.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -26,7 +27,7 @@ public class UserLogin extends BaseClassCucumber {
 	@Then("user enter the username and password")
 	public void userEnterTheUsernameAndPassword() {
 		
-		fill(u.getUserName(), "Takshi");
+		fill(u.getUserName(), "Takashi");
 		fill(u.getPassword(), "Taka@Crazy");
 		 
 	}
@@ -35,6 +36,18 @@ public class UserLogin extends BaseClassCucumber {
 	public void userShouldClickLoginButton() {
 		 btnClick(u.getLoginButton());
 		 
+	}
+	
+	@Then("user should get the error message")
+	public void userShouldGetTheErrorMessage() {
+		String expected = u.getEmailError().getText();
+		Assert.assertEquals("Testcase is passed", expected, "Invalid Email Address");
+	    
+	}
+
+	@Then("user should navigated to the home page")
+	public void userShouldNavigatedToTheHomePage() {
+	    
 	}
 
 	@Then("user enter empty username and password")

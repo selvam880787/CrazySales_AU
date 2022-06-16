@@ -19,6 +19,20 @@ private WebElement password;
 @FindBy(xpath="//input[@id='login-button']")
 private WebElement loginButton;
 
+@FindBy(xpath="//div[@id='password-error']")
+private WebElement passwordError;
+
+@FindBy(xpath="//div[@id='email-error']")
+private WebElement emailError;
+
+public WebElement getPasswordError() {
+	return passwordError;
+}
+
+public WebElement getEmailError() {
+	return emailError;
+}
+
 public WebElement getLoginButton() {
 	return loginButton;
 }
