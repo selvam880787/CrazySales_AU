@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 2,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,79 +11,80 @@
         "steps": [
           {
             "result": {
-              "duration": 46912452600,
+              "duration": 7467139801,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User should launch chrome and load the url",
+            "line": 3,
+            "name": "user should launch the browser",
             "match": {
-              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+              "location": "UserLogin.userShouldLaunchTheBrowser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 6424696800,
+              "duration": 6922731200,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User click join now and then user navigated to reistration page",
+            "line": 4,
+            "name": "user should load the url",
             "match": {
-              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
+              "location": "UserLogin.userShouldLoadTheUrl()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2022-06-15T14:54:16.865Z",
-        "line": 8,
-        "name": "To validate user registration functionality with email id and password",
+        "start_timestamp": "2022-06-16T05:32:19.996Z",
+        "line": 6,
+        "name": "To validate the login functionality with incorrect crediantials",
         "description": "",
-        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password",
+        "id": "to-validate-the-login-functionality;to-validate-the-login-functionality-with-incorrect-crediantials",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7332930099,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)\" because \"this.searchContext\" is null\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat org.baseclasses.BaseClassCucumber.fill(BaseClassCucumber.java:182)\r\n\tat org.stepdefinition.UserLogin.userEnterTheUsernameAndPassword(UserLogin.java:30)\r\n\tat ✽.user enter the username and password(file:src/test/resources/featureFiles/user_login.feature:7)\r\n",
+              "duration": 3847201,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user enter the username and password",
+            "match": {
+              "location": "UserLogin.userEnterTheUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1298400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user should click login button",
+            "match": {
+              "location": "UserLogin.userShouldClickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1021600,
+              "status": "skipped"
             },
             "line": 9,
-            "name": "User should enter email id and password",
+            "name": "user should get the error message",
             "match": {
-              "location": "LoginStepDefinition.user_should_enter_email_id_and_password()"
+              "location": "UserLogin.userShouldGetTheErrorMessage()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 367152601,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User should accept the terms",
-            "match": {
-              "location": "LoginStepDefinition.user_should_accept_the_terms()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 700349100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User close the browser",
-            "match": {
-              "location": "LoginStepDefinition.userCloseTheBrowser()"
-            },
-            "keyword": "Then "
           }
         ]
       },
       {
-        "line": 3,
+        "line": 2,
         "name": "",
         "description": "",
         "type": "background",
@@ -91,89 +92,239 @@
         "steps": [
           {
             "result": {
-              "duration": 31174948000,
+              "duration": 9836501901,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User should launch chrome and load the url",
+            "line": 3,
+            "name": "user should launch the browser",
             "match": {
-              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+              "location": "UserLogin.userShouldLaunchTheBrowser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4303060900,
+              "duration": 9911442100,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User click join now and then user navigated to reistration page",
+            "line": 4,
+            "name": "user should load the url",
             "match": {
-              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
+              "location": "UserLogin.userShouldLoadTheUrl()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2022-06-15T14:55:18.859Z",
+        "start_timestamp": "2022-06-16T05:32:34.542Z",
+        "line": 11,
+        "name": "To validate the login functionality with empty username and incorrect password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-validate-the-login-functionality-with-empty-username-and-incorrect-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 549222200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter empty username and password",
+            "match": {
+              "location": "UserLogin.userEnterEmptyUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129858700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click the login button",
+            "match": {
+              "location": "UserLogin.userShouldClickTheLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61016300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the error message",
+            "match": {
+              "location": "UserLogin.userShouldGetTheErrorMessage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14137159901,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should launch the browser",
+            "match": {
+              "location": "UserLogin.userShouldLaunchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8346426901,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should load the url",
+            "match": {
+              "location": "UserLogin.userShouldLoadTheUrl()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-16T05:32:55.036Z",
+        "line": 16,
+        "name": "To validate the login functionality with empty username and empty password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-validate-the-login-functionality-with-empty-username-and-empty-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196324801,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter empty username and empty password",
+            "match": {
+              "location": "UserLogin.userEnterEmptyUsernameAndEmptyPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84637900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should click the login button",
+            "match": {
+              "location": "UserLogin.userShouldClickTheLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39611800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should get the error message",
+            "match": {
+              "location": "UserLogin.userShouldGetTheErrorMessage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12276158500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should launch the browser",
+            "match": {
+              "location": "UserLogin.userShouldLaunchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21514180699,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should load the url",
+            "match": {
+              "location": "UserLogin.userShouldLoadTheUrl()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-16T05:33:17.845Z",
         "line": 21,
-        "name": "To validate user registration functionality with email id and password",
+        "name": "To validate the login functionality with  username and empty password",
         "description": "",
-        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password;;2",
+        "id": "to-validate-the-login-functionality;to-validate-the-login-functionality-with--username-and-empty-password",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 432500101,
+              "duration": 1039123500,
               "status": "passed"
             },
-            "line": 15,
-            "name": "User should enter email id \"example123@gmail.com\" and password \"123$gt\"",
+            "line": 22,
+            "name": "user enter empty username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"example123@gmail.com\"",
-                  "offset": 27
-                },
-                {
-                  "val": "\"123$gt\"",
-                  "offset": 63
-                }
-              ],
-              "location": "LoginStepDefinition.user_should_enter_email_id_and_password(String,String)"
+              "location": "UserLogin.userEnterEmptyUsernameAndPassword()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 84048100,
+              "duration": 139181800,
               "status": "passed"
             },
-            "line": 16,
-            "name": "User should accept the terms",
+            "line": 23,
+            "name": "user should click the login button",
             "match": {
-              "location": "LoginStepDefinition.user_should_accept_the_terms()"
+              "location": "UserLogin.userShouldClickTheLoginButton()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 570501599,
+              "duration": 55046101,
               "status": "passed"
             },
-            "line": 17,
-            "name": "User quit the browser",
+            "line": 24,
+            "name": "user should get the error message",
             "match": {
-              "location": "LoginStepDefinition.userQuitTheBrowser()"
+              "location": "UserLogin.userShouldGetTheErrorMessage()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       },
       {
-        "line": 3,
+        "line": 2,
         "name": "",
         "description": "",
         "type": "background",
@@ -181,183 +332,84 @@
         "steps": [
           {
             "result": {
-              "duration": 30493872500,
+              "duration": 28484335600,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User should launch chrome and load the url",
+            "line": 3,
+            "name": "user should launch the browser",
             "match": {
-              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+              "location": "UserLogin.userShouldLaunchTheBrowser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3690032701,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User click join now and then user navigated to reistration page",
-            "match": {
-              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
-            },
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-06-15T14:55:55.469Z",
-        "line": 22,
-        "name": "To validate user registration functionality with email id and password",
-        "description": "",
-        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 351912300,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User should enter email id \"example456@gmail.com\" and password \"456\u0026gt\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"example456@gmail.com\"",
-                  "offset": 27
-                },
-                {
-                  "val": "\"456\u0026gt\"",
-                  "offset": 63
-                }
-              ],
-              "location": "LoginStepDefinition.user_should_enter_email_id_and_password(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 113359600,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User should accept the terms",
-            "match": {
-              "location": "LoginStepDefinition.user_should_accept_the_terms()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 571177399,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User quit the browser",
-            "match": {
-              "location": "LoginStepDefinition.userQuitTheBrowser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 30039201000,
+              "duration": 10488976100,
               "status": "passed"
             },
             "line": 4,
-            "name": "User should launch chrome and load the url",
+            "name": "user should load the url",
             "match": {
-              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+              "location": "UserLogin.userShouldLoadTheUrl()"
             },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3441190399,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User click join now and then user navigated to reistration page",
-            "match": {
-              "location": "LoginStepDefinition.user_click_join_now_and_then_user_navigated_to_reistration_page()"
-            },
-            "keyword": "When "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2022-06-15T14:56:30.700Z",
-        "line": 23,
-        "name": "To validate user registration functionality with email id and password",
+        "start_timestamp": "2022-06-16T05:33:52.874Z",
+        "line": 26,
+        "name": "To validate the login functionality with correct crediantials",
         "description": "",
-        "id": "to-validate-user-registration-functionality;to-validate-user-registration-functionality-with-email-id-and-password;;4",
+        "id": "to-validate-the-login-functionality;to-validate-the-login-functionality-with-correct-crediantials",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 606090800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-3DLERL0\u0027, ip: \u0027192.168.43.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\Selva\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57969}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9ad85605e16e6bd7762f6d11dea6d884\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat org.baseclasses.BaseClassCucumber.fill(BaseClassCucumber.java:182)\r\n\tat org.stepdefinition.UserLogin.userEnterEmptyUsernameAndPassword(UserLogin.java:55)\r\n\tat ✽.user enter empty username and password(file:src/test/resources/featureFiles/user_login.feature:27)\r\n",
+              "duration": 12726966801,
+              "status": "failed"
             },
-            "line": 15,
-            "name": "User should enter email id \"example789@gmail.com\" and password \"789@%^gt\"",
+            "line": 27,
+            "name": "user enter empty username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"example789@gmail.com\"",
-                  "offset": 27
-                },
-                {
-                  "val": "\"789@%^gt\"",
-                  "offset": 63
-                }
-              ],
-              "location": "LoginStepDefinition.user_should_enter_email_id_and_password(String,String)"
+              "location": "UserLogin.userEnterEmptyUsernameAndPassword()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 166173400,
-              "status": "passed"
+              "duration": 691300,
+              "status": "skipped"
             },
-            "line": 16,
-            "name": "User should accept the terms",
+            "line": 28,
+            "name": "user should click the login button",
             "match": {
-              "location": "LoginStepDefinition.user_should_accept_the_terms()"
+              "location": "UserLogin.userShouldClickTheLoginButton()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 427681899,
-              "status": "passed"
+              "duration": 699800,
+              "status": "skipped"
             },
-            "line": 17,
-            "name": "User quit the browser",
+            "line": 29,
+            "name": "user should navigated to the home page",
             "match": {
-              "location": "LoginStepDefinition.userQuitTheBrowser()"
+              "location": "UserLogin.userShouldNavigatedToTheHomePage()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "To validate user registration functionality",
+    "name": "To validate the login functionality",
     "description": "",
-    "id": "to-validate-user-registration-functionality",
+    "id": "to-validate-the-login-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/featureFiles/user_registration.feature",
+    "uri": "file:src/test/resources/featureFiles/user_login.feature",
     "tags": []
   }
 ]
