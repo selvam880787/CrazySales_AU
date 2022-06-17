@@ -9,7 +9,7 @@ import pojo.classes.UserLoginPojo;
 
 public class UserLogin extends BaseClassCucumber {
 
-	UserLoginPojo u = new UserLoginPojo();
+	
 	
 	@Given("user should launch the browser")
 	public void userShouldLaunchTheBrowser() {
@@ -24,22 +24,17 @@ public class UserLogin extends BaseClassCucumber {
 		 
 	}
 
-	@Then("user enter the username and password")
-	public void userEnterTheUsernameAndPassword() {
 		
-		fill(u.getUserName(), "Takashi");
-		fill(u.getPassword(), "Taka@Crazy");
-		 
-	}
-
 	@Then("user should click login button")
 	public void userShouldClickLoginButton() {
+		UserLoginPojo u = new UserLoginPojo();
 		 btnClick(u.getLoginButton());
 		 
 	}
 	
 	@Then("user should get the error message")
 	public void userShouldGetTheErrorMessage() {
+		UserLoginPojo u = new UserLoginPojo();
 		String expected = u.getEmailError().getText();
 		Assert.assertEquals("Testcase is passed", expected, "Invalid Email Address");
 	    
@@ -52,6 +47,7 @@ public class UserLogin extends BaseClassCucumber {
 
 	@Then("user enter empty username and password")
 	public void userEnterEmptyUsernameAndPassword() {
+		UserLoginPojo u = new UserLoginPojo();
 		fill(u.getUserName(), " ");
 		fill(u.getPassword(), "Taka@Crazy");
 		 
@@ -59,14 +55,29 @@ public class UserLogin extends BaseClassCucumber {
 
 	@Then("user should click the login button")
 	public void userShouldClickTheLoginButton() {
+		UserLoginPojo u = new UserLoginPojo();
 		 btnClick(u.getLoginButton());
 		 
 	}
 
 	@Then("user enter empty username and empty password")
 	public void userEnterEmptyUsernameAndEmptyPassword() {
+		UserLoginPojo u = new UserLoginPojo();
 		fill(u.getUserName(), " ");
 		fill(u.getPassword(), " ");
 		 
 	}
+	
+	@Then("user enter username and password")
+	public void userEnterUsernameAndPassword() {
+		UserLoginPojo u = new UserLoginPojo();
+		fill(u.getUserName(), "12345");
+		fill(u.getPassword(), "67890");
+	}
+	
+	@Then("user close the browser")
+	public void userCloseTheBrowser() {
+	    close();
+	}
+	
 }
